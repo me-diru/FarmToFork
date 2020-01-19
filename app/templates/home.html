@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+      <div class="container" style="width: 100%;">
+      <h2>Carousel Example</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+          <div class="item active">
+            <img src="static/farmer.jpg" alt="Los Angeles" style="width:150%;">
+            <div class="carousel-caption">
+              <h3>Farmer</h3>
+           
+            </div>
+          </div>
+    
+          <div class="item">
+            <img src="static/middleman.jpg" alt="Chicago" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>Middleman</h3>
+            </div>
+          </div>
+        
+          <div class="item">
+            <img src="static/consumer.jpg" alt="New York" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>Consumer</h3>
+            </div>
+          </div>
+      
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <!-- jumbotron code  -->
+      <div class="jumbotron" style="padding-left: 15px; padding-right: 15px;">
+        <h1 class="display-4">About:</h1>
+        <hr class="my-4">
+        <p> 
+      
+          A common consumer doesn’t have an idea where their daily ingredients come from and 
+          in a country like ours where no governing body moderates the goods from farmer to consumer,
+          It is quite difficult to pinpoint where the good comes from. The prices of crops are decided 
+          by the middlemen and farmers have no say in it, this creates an authority only towards the middle men 
+          side, resulting in inequity of prices on both the ends of the chain (Farmers, Consumers). Creating a system
+          which will be able to show each level of the process will be able to create transparency and efficient monitoring 
+          of our daily products health wise. 
+       
+      </div>
+     
+    </div>
+        
+{% endblock %}

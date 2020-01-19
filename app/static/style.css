@@ -1,0 +1,282 @@
+/*main page*/
+#banner_image{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:#f8f8f8;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+#banner-content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 660px;
+}
+#play_button{
+    font-size: 80px;
+    color: #f8f8f8;
+    opacity: 0.5;
+}
+/*footer*/
+footer{
+        padding: 10px 0;
+        background-color: #333;
+        color:#9d9d9d;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+}
+/*logo*/
+#logo{
+    max-height: 60px;
+    max-width: 150px
+}
+/*register panel*/
+#SignUpPanel{
+    padding-top: 20px;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+/*login*/
+#login{
+    align-self: center;
+}
+#panel{
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+/*user main page*/
+#user_page{
+    padding-top: 35px;
+    background-color: #333;
+}
+#user_dashboard{
+    background-color: black;
+    opacity: 0.5;
+
+    padding-top: 50px;
+}
+#user_pic{
+    font-size: 120px;
+    color: #f8f8f8;
+}
+/*food page*/
+.food_tab1{
+    font-size: 30px;
+    color: #9d9d9d;
+    margin-top: 10px;
+}
+.food_nav{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #101010;
+}
+#banner_image{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:#f8f8f8;
+    background: url("img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+/*
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding-left: 510px;
+  color: #f8f8f8;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 0 3px 3px 0;
+}
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  padding-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 0 3px 3px 0;
+}*/
+#banner-content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 660px;
+}
+footer{
+        padding: 10px 0;
+        background-color: black;
+        color:#9d9d9d;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+}
+#panel_footer{
+    background-color: #f8f8f8;
+}
+#panel{
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+#login{
+    align-self: center;
+}
+#SignUpPanel{
+    padding-top: 20px;
+    margin-top: 45px;
+    padding-bottom: 50px;
+}
+/*#food_img{
+    padding-top:30px;
+    margin-top:20px;
+    margin: 10px;
+}
+#user_dashboard{
+    border-right-width: 5px;
+    border-right-color: blue;
+    border-right-style: groove;
+#profile_pic{
+    font-size: 100px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+}
+.glyphicon.glyphicon-picture{
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-image: url("img/profile_border.jpg");
+}*/
+#user_page{
+    padding-top: 35px;
+    /*background-color: rgba(26,139,49,0.8);*/
+    background-color: rgba(77,29,226,0.8);
+}
+.categories{
+    padding: 5px;
+
+}
+.categories_img{
+    width:100%;
+    background-color: grey;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#user_dashboard{
+    background-color: #101010;
+}
+#user_pic{
+    font-size: 120px;
+    color: #f8f8f8;
+}
+#play_button{
+    font-size: 80px;
+    color: #f8f8f8;
+    opacity: 0.5;
+}
+/*.food_tab{
+    margin-left: 40px;
+    padding-left:50px;
+    padding-right: 40px;
+}*/
+.food_nav{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 20px;
+    color: #101010;
+}
+
+#level{
+    background-color: grey;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#bar{
+    width:4%;
+    background-color:pink;
+    height: 30px;
+}
+
+.food_tab1{
+    font-size: 30px;
+    color: #9d9d9d;
+    margin-top: 10px;
+}
+
+.food_tab2{
+    font-size: 50px;
+    color: #9d9d9d;
+}
+
+#user_pic1{
+    font-size: 80px;
+    color: #f8f8f8;
+}
+
+#user_page1{
+    padding-top: 35px;
+    /*background-color: rgba(26,139,49,0.8);*/
+    /*background-color: rgba(77,29,226,0.8);*/
+    background-image: url("img/city3.jpg");
+}
+
+
+#food_content{
+
+     background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 50px;
+    color: #101010;
+}
+
+.container1{
+	visibility:hidden;
+  background-color:black; opacity: 0.8;
+}
+#user_page1{
+    padding-top: 35px;
+    /*background-color: rgba(0,0,0,0.8);*/
+    background-image: url("img/city3.jpg");
+}
+
+#food_btn{
+    background-color: #555;
+    position:absolute;
+    right: 30px;
+    font-size: 18px;
+}
+
+#text{
+    color: #080808;
+}
+
+.food_nav1{
+    opacity: 0.8;
+    background-color: #269abc;
+}
